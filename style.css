@@ -1,0 +1,77 @@
+/* Estilos básicos para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado principal */
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilo para la lista de características */
+ul {
+    list-style-type: disc;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 600px;
+}
+
+ul li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto al pasar el cursor sobre los elementos de la lista */
+ul li:hover {
+    background-color: #e8f4fd;
+}
+
+/* Estilo del párrafo */
+p {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Estilo del enlace */
+a {
+    color: #4a90e2;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #3a78c2;
+}
+
+/* Ajuste del tamaño del enlace en móviles */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    ul li {
+        font-size: 1em;
+    }
+}
